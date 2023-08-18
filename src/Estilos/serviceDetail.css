@@ -1,0 +1,10 @@
+.serviceDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medio {
+  display: flex;
+  align-items: center;
+}

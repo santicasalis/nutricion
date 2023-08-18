@@ -1,0 +1,39 @@
+.meContainer {
+  display: flex;
+  flex-direction: Column;
+  margin-top: 3rem;
+}
+
+.meLayout {
+  display: flex;
+  align-items: flex-start;
+}
+.welcome {
+  position: initial;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+}
+
+.points h3 {
+  margin-bottom: 1rem;
+}
+
+.bienvenidos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 5rem;
+  width: 70%;
+}
+
+.bienvenidos p {
+  margin-top: 2rem;
+}

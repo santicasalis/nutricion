@@ -1,0 +1,16 @@
+.img-sectionUno {
+  background-image: url("../assets/desayunosectionuno.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 200vh;
+}
+.img-sectionUno h1 {
+  font-size: 250%;
+}

@@ -1,0 +1,34 @@
+.servicesCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 2rem 2rem;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px var(--celadon-2);
+}
+
+.cardHover:hover {
+  transform: scale(1.1);
+}
+.serviceListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.serviceList {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.underline {
+  text-decoration: none;
+  color: var(--dark-moss-green);
+}

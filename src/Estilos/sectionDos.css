@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  justify-content: space-evenly;
+  background-color: var(--celadon-2);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2em;
+  height: 30vh;
+}
+
+.card img {
+  width: fit-content;
+  height: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20vh;
+}
+
+.descripcion-card {
+  width: 350px;
+  word-wrap: break-word;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.titulo h3 {
+  margin: 1rem 0;
+}
