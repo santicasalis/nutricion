@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/navbar.css";
+import "../Estilos/navbar.css";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);

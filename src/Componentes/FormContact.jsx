@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/formContact.css";
+import "../Estilos/formContact.css";
 
 function FormContact() {
   const [formData, setFormData] = useState({

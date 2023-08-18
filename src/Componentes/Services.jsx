@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/services.css";
+import "../Estilos/services.css";
 
 const Services = ({ title }) => {
   return (

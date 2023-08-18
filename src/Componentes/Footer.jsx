@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/footer.css";
+import "../Estilos/footer.css";
 
 const Footer = () => {
   return (

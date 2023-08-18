@@ -1,4 +1,4 @@
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/sectionDos.css";
+import "../Estilos/sectionDos.css";
 
 function SectionDos() {
   const cards = [

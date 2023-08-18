@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 
 import servicios from "../servicios";
 
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/serviceDetail.css";
+import "../Estilos/serviceDetail.css";
 
 export const ServicesDetail = () => {
   const { serviceId } = useParams();

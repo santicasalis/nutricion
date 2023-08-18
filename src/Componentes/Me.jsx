@@ -1,4 +1,4 @@
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/me.css";
+import "../Estilos/me.css";
 
 const Me = () => {
   return (
