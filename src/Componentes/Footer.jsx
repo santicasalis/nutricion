@@ -7,7 +7,7 @@ const Footer = () => {
       <footer>
         <div className="logo">
           <Link to="/">
-            <img src="/src/assets/iconBlanco.jpg" alt="logo" />
+            <img src="../assets/iconBlanco.jpg" alt="logo" />
           </Link>
         </div>
         <ul className="iconsContainer">

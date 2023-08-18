@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import iconBlanco from "../assets/iconBlanco.jpg";
 import "../Estilos/navbar.css";
 
 function Navbar() {
@@ -14,7 +14,7 @@ function Navbar() {
       <nav className={`navbar ${menuOpen ? "active" : ""}`}>
         <div className="logo">
           <Link to="/">
-            <img src="/src/assets/iconBlanco.jpg" alt="logo" />
+            <img src={iconBlanco} alt="logo" />
           </Link>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
