@@ -1,7 +1,7 @@
 import Services from "./Services";
 
 import servicios from "../servicios";
-import "D:/nutricion-flor/nutricion-flor/src/Estilos/services.css";
+import "../Estilos/services.css";
 import { Link } from "react-router-dom";
 
 export const ServiceList = () => {
