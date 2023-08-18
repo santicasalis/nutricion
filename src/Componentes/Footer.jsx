@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../Estilos/footer.css";
+import iconBlanco from "../assets/iconBlanco.jpg";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <footer>
         <div className="logo">
           <Link to="/">
-            <img src="../assets/iconBlanco.jpg" alt="logo" />
+            <img src={iconBlanco} alt="logo" />
           </Link>
         </div>
         <ul className="iconsContainer">

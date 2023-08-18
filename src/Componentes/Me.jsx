@@ -1,4 +1,5 @@
 import "../Estilos/me.css";
+import florchicac from "../assets/florchicac.png";
 
 const Me = () => {
   return (
@@ -84,7 +85,7 @@ const Me = () => {
             </div> */}
           </div>
 
-          <img src="/src/assets/florchicac.png" alt="Florencia" />
+          <img src={florchicac} alt="Florencia" />
         </div>
       </div>
     </>

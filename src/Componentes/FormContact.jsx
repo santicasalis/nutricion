@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../Estilos/formContact.css";
-
+import profilAzulChica from "../assets/profilAzulChica.png";
+import margarita from "../assets/margarita.jpg";
 function FormContact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -31,11 +32,11 @@ function FormContact() {
   return (
     <>
       <div className="formContainer">
-        <img className="margarita" src="/src/assets/margarita.jpg" alt="" />
+        <img className="margarita" src={margarita} alt="" />
 
         <div className="formularioContainer">
           <div className="contactame">
-            <img src="/src/assets/profilAzulChica.png" alt="" />
+            <img src={profilAzulChica} alt="" />
             <h1>
               Dejame tu <br /> consulta
             </h1>

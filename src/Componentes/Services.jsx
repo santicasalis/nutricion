@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "../Estilos/services.css";
-
+import frutas from "../assets/frutas.jpg";
 const Services = ({ title }) => {
   return (
     <>
@@ -8,7 +8,7 @@ const Services = ({ title }) => {
         <div className="servicesCard">
           <div>
             {" "}
-            <img src="/src/assets/frutas.jpg" alt="" />
+            <img src={frutas} alt={title} />
           </div>
           <h3>{title}</h3>
         </div>
