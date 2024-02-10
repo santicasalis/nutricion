@@ -4,7 +4,7 @@ footer {
   left: 0;
   width: 100%;
   height: 15vh;
-  background-color: var(--celadon-2);
+  background-color: #f6be9a;
   display: flex;
   align-items: center;
   justify-content: space-around;

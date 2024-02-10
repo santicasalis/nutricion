@@ -1,11 +1,11 @@
-import "../Estilos/me.css";
-import florchicac from "../assets/florchicac.png";
+import styles from "../me/me.module.css";
+import florchicac from "../../assets/florchicac.png";
 
 const Me = () => {
   return (
     <>
-      <div className="welcome">
-        <div className="bienvenidos">
+      <div className={styles.welcome}>
+        <div className={styles.bienvenidos}>
           <h1>¡Bienvenidos a mi Mundo Nutricional!</h1>
 
           <p>
@@ -17,9 +17,9 @@ const Me = () => {
             una alimentación inteligente y consciente.
           </p>
         </div>
-        <div className="meLayout">
-          <div className="meContainer">
-            <div className="points">
+        <div className={styles.meLayout}>
+          <div className={styles.meContainer}>
+            <div className={styles.points}>
               <h3>Mi Historia y Formación</h3>
               <p>
                 Me gradué en la Universidad de Buenos Aires, donde obtuve mi
@@ -32,7 +32,7 @@ const Me = () => {
                 campo de la nutrición.
               </p>
             </div>
-            <div className="points">
+            <div className={styles.points}>
               <h3>Especialización en Nutrición Deportiva</h3>
               <p>
                 Mi viaje me llevó a descubrir mi pasión por la nutrición
@@ -44,7 +44,7 @@ const Me = () => {
                 nutricionales personalizadas.
               </p>
             </div>
-            <div className="points">
+            <div className={styles.points}>
               <h3> Enfoque Personalizado</h3>
               <p>
                 Cada individuo es único y merece un enfoque de nutrición
@@ -56,7 +56,7 @@ const Me = () => {
                 nutrición.
               </p>
             </div>
-            <div className="points">
+            <div className={styles.points}>
               <h3> Más que una Dieta, un Estilo de Vida</h3>
               <p>
                 Mi objetivo no es simplemente proporcionarte una dieta temporal,

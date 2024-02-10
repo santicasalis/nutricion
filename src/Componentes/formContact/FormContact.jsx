@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "../Estilos/formContact.css";
-import profilAzulChica from "../assets/profilAzulChica.png";
-import margarita from "../assets/margarita.jpg";
+import styles from "../formContact/formContact.module.css";
+import profilAzulChica from "../../assets/profilAzulChica.png";
+import margarita from "../../assets/margarita.jpg";
 function FormContact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -31,11 +31,11 @@ function FormContact() {
 
   return (
     <>
-      <div className="formContainer">
-        <img className="margarita" src={margarita} alt="" />
+      <div className={styles.formContainer}>
+        <img className={styles.margarita} src={margarita} alt="" />
 
-        <div className="formularioContainer">
-          <div className="contactame">
+        <div className={styles.formularioContainer}>
+          <div className={styles.contactame}>
             <img src={profilAzulChica} alt="" />
             <h1>
               Dejame tu <br /> consulta
@@ -50,7 +50,7 @@ function FormContact() {
               onChange={handleInputChange}
               required
               placeholder="Nombre"
-              className="inputForm"
+              className={styles.inputForm}
             />
 
             <input
@@ -61,7 +61,7 @@ function FormContact() {
               onChange={handleInputChange}
               required
               placeholder="Apellido"
-              className="inputForm"
+              className={styles.inputForm}
             />
 
             <input
@@ -72,7 +72,7 @@ function FormContact() {
               onChange={handleInputChange}
               required
               placeholder="Correo electrónico"
-              className="inputForm"
+              className={styles.inputForm}
             />
 
             <textarea
@@ -82,10 +82,10 @@ function FormContact() {
               onChange={handleInputChange}
               required
               placeholder="Escribe un mensaje"
-              className="inputForm"
+              className={styles.inputForm}
             ></textarea>
 
-            <button className="inputForm" type="submit">
+            <button className={styles.inputForm} type="submit">
               Enviar
             </button>
           </form>

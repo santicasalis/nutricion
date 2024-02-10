@@ -1,17 +1,22 @@
 .container {
   display: flex;
   flex-direction: column;
+
   align-items: center;
-  height: 50vh;
-  justify-content: space-evenly;
-  background-color: var(--celadon-2);
+  flex-wrap: wrap;
+  height: 400px;
+  justify-content: flex-start;
+  background-color: #fceade;
 }
 
+.container h1 {
+  margin-top: 2rem;
+}
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 2em;
+  margin: 2rem;
   height: 30vh;
 }
 
@@ -20,14 +25,14 @@
   height: auto;
 }
 
-.card-container {
+.cardContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 20vh;
 }
 
-.descripcion-card {
+.descripcionCard {
   width: 350px;
   word-wrap: break-word;
 }

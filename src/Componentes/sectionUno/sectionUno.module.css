@@ -1,0 +1,16 @@
+.imgSectionUno {
+  background-image: url("../../assets/portadados.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #fceade;
+}
+.imgSectionUno h1 {
+  font-size: 250%;
+  color: white;
+}

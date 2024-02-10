@@ -1,6 +1,6 @@
-import "../Estilos/whatsapp.css";
+import styles from "../whatsApp/whatsApp.module.css";
 
-const WhatsAppButton = () => {
+const WhatsApp = () => {
   return (
     <a
       href="https://wa.me/5491139243705"
@@ -10,11 +10,11 @@ const WhatsAppButton = () => {
       <img
         src="https://cdn-icons-png.flaticon.com/128/733/733585.png"
         alt="WhatsApp"
-        className="whatsapp-icon"
+        className={styles.whatsappIcon}
         title="Haga clic para chatear en WhatsApp"
       />
     </a>
   );
 };
 
-export default WhatsAppButton;
+export default WhatsApp;

@@ -1,10 +1,10 @@
-import Services from "./Services";
+import Services from "../services/Services";
 
-import servicios from "../servicios";
-import "../Estilos/services.css";
+import servicios from "../../servicios";
+
 import { Link } from "react-router-dom";
 
-export const ServiceList = () => {
+const ServiceList = () => {
   return (
     <>
       <div className="serviceListContainer">
@@ -28,3 +28,4 @@ export const ServiceList = () => {
     </>
   );
 };
+export default ServiceList;

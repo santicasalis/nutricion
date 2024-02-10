@@ -1,4 +1,4 @@
-import "../Estilos/sectionDos.css";
+import styles from "../sectionDos/sectionDos.module.css";
 
 function SectionDos() {
   const cards = [
@@ -24,15 +24,15 @@ function SectionDos() {
 
   return (
     <>
-      <div className="container">
+      <div className={styles.container}>
         <h1>Ofreciéndote las herramientas para que alcances tus metas </h1>
-        <div className="card-container">
+        <div className={styles.cardContainer}>
           {cards.map((card, index) => (
-            <div className="card" key={index}>
+            <div className={styles.card} key={index}>
               <img src={card.imageSrc} alt={card.title} />
-              <div className="titulo">
+              <div className={styles.titulo}>
                 <h3>{card.title}</h3>
-                <div className="descripcion-card">{card.description}</div>
+                <div className={styles.descripcionCard}>{card.description}</div>
               </div>
             </div>
           ))}

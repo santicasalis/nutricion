@@ -1,10 +1,9 @@
 import { useParams } from "react-router-dom";
 
-import servicios from "../servicios";
+import servicios from "../../servicios";
+import styles from "../serviceDetail/serviceDetail.module.css";
 
-import "../Estilos/serviceDetail.css";
-
-export const ServicesDetail = () => {
+const ServicesDetail = () => {
   const { serviceId } = useParams();
 
   const findServiceDetail = parseInt(serviceId);
@@ -16,9 +15,9 @@ export const ServicesDetail = () => {
   if (foundService) {
     return (
       <>
-        <div className="serviceDetailContainer" key={serviceId}>
+        <div className={styles.serviceDetailContainer} key={serviceId}>
           <h3>{foundService.title}</h3>
-          <div className="medio">
+          <div className={styles.medio}>
             <div>{foundService.description}</div>
 
             <img
@@ -33,3 +32,5 @@ export const ServicesDetail = () => {
     return <h1>ERROR</h1>;
   }
 };
+
+export default ServicesDetail;
