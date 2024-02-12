@@ -4,7 +4,7 @@ footer {
   background-color: #db5461;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   font-family: "Josefin Sans", sans-serif;
   color: white;
   font-size: x-large;

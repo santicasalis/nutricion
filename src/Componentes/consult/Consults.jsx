@@ -26,6 +26,9 @@ export const Consults = () => {
             Para la evaluación de la composición corporal online, utilizamos
             fotos y medidas que nos envías. Así, garantizamos un seguimiento
             preciso y adaptado a tu progreso
+            <br className={styles.brSectionUno} />{" "}
+            <br className={styles.brSectionUno} />
+            <br className={styles.brSectionUno} />
           </p>
           <button>Reservá tu turno</button>
         </div>

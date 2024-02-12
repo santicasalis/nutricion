@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "../footer/footer.module.css";
 import iconBlanco from "../../assets/logouno.png";
-
+import logouno from "../../assets/logotres.png";
 const Footer = () => {
   return (
     <>
@@ -38,6 +38,11 @@ const Footer = () => {
             <p>Buenos aires, Argentina</p>
           </li>
         </ul> */}
+        <img
+          src={logouno}
+          style={{ width: "100px", marginRight: "1rem" }}
+          alt=""
+        />
         Lic. Florencia Casalis
       </footer>
     </>

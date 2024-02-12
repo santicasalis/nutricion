@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import styles from "./navbar.module.css";
-
+import logouno from "../../assets/logotres.png";
 const NavItem = ({ label, path }) => (
   <li className={styles.navbar__listItem}>
     <Link to={path} className={styles.navbar__link}>
@@ -31,7 +31,11 @@ const Navbar = () => {
     <header className={styles.navbar}>
       <nav className={styles.navbar__nav}>
         <Link to="/" className={styles.navbarLogo}>
-          <img src={""} alt="" />
+          <img
+            src={logouno}
+            style={{ width: "100px", marginTop: "0.5rem" }}
+            alt=""
+          />
         </Link>
         <ul
           className={`${styles.navbar__list} ${

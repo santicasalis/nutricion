@@ -26,6 +26,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
+  align-items: stretch;
 }
 
 .cardContainer {
@@ -75,5 +76,8 @@
   .consultsContainer p {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  .brSectionUno {
+    display: none;
   }
 }
