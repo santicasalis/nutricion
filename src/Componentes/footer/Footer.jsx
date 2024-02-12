@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import styles from "../footer/footer.module.css";
-import iconBlanco from "../../assets/logouno.png";
-import logouno from "../../assets/logotres.png";
+// import styles from "../footer/footer.module.css";
+// import iconBlanco from "../../assets/logouno.png";
+
 const Footer = () => {
   return (
     <>
@@ -39,7 +38,7 @@ const Footer = () => {
           </li>
         </ul> */}
         <img
-          src={logouno}
+          src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1707765774/logoTRES_rnolhj.png"
           style={{ width: "100px", marginRight: "1rem" }}
           alt=""
         />
