@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className={styles.logo}>
+        {/* <div className={styles.logo}>
           <Link to="/">
             <img
               src={"iconBlanco"}
@@ -37,7 +37,8 @@ const Footer = () => {
             />
             <p>Buenos aires, Argentina</p>
           </li>
-        </ul>
+        </ul> */}
+        Lic. Florencia Casalis
       </footer>
     </>
   );
