@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-.cardContainer button {
+.cardContainer a {
   margin-top: 1rem;
   padding: 20px;
   border-radius: 25px;
@@ -61,9 +61,10 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: large;
   transition: transform 0.3s ease-in-out;
+  text-decoration: none;
 }
 
-.cardContainer button:hover {
+.cardContainer a:hover {
   transform: scale(1.2);
 }
 

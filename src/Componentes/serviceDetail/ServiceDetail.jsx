@@ -17,17 +17,17 @@ const ServicesDetail = () => {
       <>
         <div className={styles.serviceDetailContainer} key={serviceId}>
           <h3>{foundService.title}</h3>
-          <div className={styles.medio}>
-            <div className={styles.description}>
-              <div>{foundService.description}</div>
-              <button>Sacá tu turno</button>
-            </div>
 
+          <div className={styles.medio}>
             <img
               src={foundService.imageDetail}
               className={styles.image}
               alt=""
             />
+            <div className={styles.description}>
+              <div>{foundService.description}</div>
+              <button>Sacá tu turno</button>
+            </div>
           </div>
         </div>
       </>

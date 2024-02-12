@@ -26,11 +26,14 @@ export const Consults = () => {
             Para la evaluación de la composición corporal online, utilizamos
             fotos y medidas que nos envías. Así, garantizamos un seguimiento
             preciso y adaptado a tu progreso
-            <br className={styles.brSectionUno} />{" "}
-            <br className={styles.brSectionUno} />
-            <br className={styles.brSectionUno} />
           </p>
-          <button>Reservá tu turno</button>
+          <a
+            href="https://wa.link/ndjqym"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Reservá tu turno
+          </a>
         </div>
         <div className={styles.cardContainer}>
           {" "}
@@ -41,18 +44,27 @@ export const Consults = () => {
           />
           <h2 className={styles.consultas}>Consultas Presenciales</h2>
           <p>
-            Llevamos a cabo una evaluación a través de preguntas detalladas
-            sobre hábitos, gustos, objetivos, salud, rutinas diarias, trabajo,
-            horarios y actividad física, recopilamos información clave. Con
-            estos datos, desarrollamos un plan de alimentación personalizado
-            adaptado a tus necesidades y metas. <br /> <br />
-            Además, en las consultas presenciales, ofrecemos un valor adicional
-            al incluir la medición de la composición corporal mediante la
-            Antropometría. Esta herramienta nos permite analizar en detalle
-            aspectos como la masa grasa, muscular, ósea proporcionando una
-            visión más completa y personalizada.
+            En las consultas presenciales, ofrecemos un valor adicional al
+            incluir la medición de la composición corporal mediante la
+            Antropometría.
+            <br />
+            <br /> Esta herramienta nos permite analizar en detalle aspectos
+            como la masa grasa, muscular y ósea, proporcionando una visión más
+            completa y personalizada de tu estado nutricional. <br />
+            <br />
+            Además, para tu comodidad, estoy disponible para consultas en las
+            localidades de Moreno y Vicente López. ¡Espero poder acompañarte en
+            tu viaje hacia una alimentación más saludable y personalizada!
+            <br className={styles.brSectionUno} />
+            <br className={styles.brSectionUno} />
           </p>
-          <button>Reservá tu turno</button>
+          <a
+            href="https://wa.link/ndjqym"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Reservá tu turno
+          </a>
         </div>
       </div>
     </div>
