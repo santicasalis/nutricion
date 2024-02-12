@@ -7,7 +7,7 @@ export const Sport = () => {
     "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707699497/deporte_4_oy2ktj.jpg",
     "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707697717/deporte3_eumydf.jpg",
     "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707697698/deporte1_dkzm2e.jpg",
-    // Agrega más URLs de imágenes según sea necesario
+    "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707701935/deporte2_lpd8gt.jpg",
   ];
 
   useEffect(() => {

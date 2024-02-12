@@ -39,5 +39,9 @@
 
   .imgSectionUno p {
     width: 70%;
+    text-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.909);
+  }
+  .imgSectionUno h1 {
+    text-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.909);
   }
 }

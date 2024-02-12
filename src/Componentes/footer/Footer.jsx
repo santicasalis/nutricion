@@ -1,10 +1,10 @@
-// import styles from "../footer/footer.module.css";
+import styles from "../footer/footer.module.css";
 // import iconBlanco from "../../assets/logouno.png";
 
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className={styles.footerr}>
         {/* <div className={styles.logo}>
           <Link to="/">
             <img
