@@ -1,34 +1,55 @@
 .servicesCard {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  width: 350px;
+  width: 100%;
   margin: 2rem 2rem;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 15px;
   transition: transform 0.3s;
-  box-shadow: 0 2px 4px var(--celadon-2);
+  box-shadow: 0 2px 6px #db5461;
 }
 
-.cardHover:hover {
+/* .cardHover:hover {
   transform: scale(1.1);
-}
+} */
 .serviceListContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem;
+  background-color: #f2e9dc;
+}
+
+.serviceListContainer h1 {
+  margin-top: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #472836;
+  text-align: center;
 }
 
 .serviceList {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   align-content: space-around;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.servicesCard h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.servicesCardImg {
+  width: 100%;
 }
 
 .underline {
   text-decoration: none;
+  margin-bottom: 1rem;
   color: var(--dark-moss-green);
+}
+
+.servicec {
+  width: 30%;
+  margin: 2rem 2rem;
 }

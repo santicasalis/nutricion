@@ -1,16 +1,33 @@
 .imgSectionUno {
-  background-image: url("../../assets/portadados.png");
+  background-image: url("https://res.cloudinary.com/ddpmly8bf/image/upload/v1707598626/f617b61a-7515-4bb1-ba97-f9a71ea63253_faxovw.jpg");
+  /* https://res.cloudinary.com/ddpmly8bf/image/upload/v1707600323/71fdf914-70d6-43bd-ac44-31eb598f8a0a_dypata.png */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 65%;
+  filter: brightness(0.9);
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 60vh;
-  background-color: #fceade;
 }
 .imgSectionUno h1 {
   font-size: 250%;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.909);
+  margin: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.imgSectionUno p {
+  width: 50%;
+  margin: 0rem 3rem;
   color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  text-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.909);
 }

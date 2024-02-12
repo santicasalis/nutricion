@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #f6be9a;
+  background-color: #db5461;
   color: #fff;
   padding: 10px;
   position: fixed;
@@ -35,7 +35,8 @@
 
 .navbar__link {
   text-decoration: none;
-  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
   margin: 0rem 2rem;
   transition: color 0.3s, background-color 0.3s;
 }

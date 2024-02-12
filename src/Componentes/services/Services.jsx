@@ -1,16 +1,11 @@
 import styles from "../services/service.module.css";
 
-const Services = ({ title }) => {
+const Services = ({ title, imagen }) => {
   return (
     <>
-      <div className={styles.cardHover}>
-        <div className={styles.servicesCard}>
-          <div>
-            {" "}
-            <img src={"s"} alt={title} />
-          </div>
-          <h3>{title}</h3>
-        </div>
+      <div className={styles.servicesCard}>
+        <h3>{title}</h3>
+        <img src={imagen} alt={title} className={styles.servicesCardImg} />
       </div>
     </>
   );
