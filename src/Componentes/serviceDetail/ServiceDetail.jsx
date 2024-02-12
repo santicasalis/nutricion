@@ -20,7 +20,7 @@ const ServicesDetail = () => {
           <div className={styles.medio}>
             <div className={styles.description}>
               <div>{foundService.description}</div>
-              <button>saca turno</button>
+              <button>Sacá tu turno</button>
             </div>
 
             <img

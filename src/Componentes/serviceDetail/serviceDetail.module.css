@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #f2e9dc;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .serviceDetailContainer h3 {
@@ -44,4 +44,20 @@
 .image {
   margin-bottom: 2rem;
   border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .medio {
+    flex-direction: column;
+    margin: 0rem 2rem;
+  }
+  .image {
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    max-width: 300px;
+  }
+  .description {
+    width: 90%;
+    margin-right: 1rem;
+  }
 }
