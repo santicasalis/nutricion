@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 100%;
+  width: 400px;
   margin: 2rem 2rem;
   border-radius: 15px;
   transition: transform 0.3s;
@@ -11,9 +11,6 @@
   background-color: #db5461;
 }
 
-/* .cardHover:hover {
-  transform: scale(1.1);
-} */
 .serviceListContainer {
   display: flex;
   flex-direction: column;
@@ -31,9 +28,9 @@
 .serviceList {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
-  justify-content: center;
   flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
 }
 
 .servicesCard h3 {
@@ -53,10 +50,28 @@
 }
 
 .servicec {
-  width: 30%;
   margin: 2rem 2rem;
   transition: transform 0.3s ease-in-out;
 }
 .servicec:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .serviceList {
+    margin: 0rem 0rem;
+    width: 300px;
+  }
+  .servicec {
+    margin: 0rem 0rem;
+  }
+  .servicesCardImg {
+    width: 80%;
+  }
+  .servicesCard {
+    margin: 1rem 0.5rem;
+    background-color: #f2e9dc;
+    color: #db5461;
+    box-shadow: none;
+  }
 }

@@ -18,6 +18,7 @@ const Me = () => {
           </p>
         </div>
         <div className={styles.meLayout}>
+          <img src={florchicac} alt="Florencia" />
           <div className={styles.meContainer}>
             <div className={styles.points}>
               <h3>Mi Historia y Formación</h3>
@@ -44,18 +45,7 @@ const Me = () => {
                 nutricionales personalizadas.
               </p>
             </div>
-            {/* <div className={styles.points}>
-              <h3> Enfoque Personalizado</h3>
-              <p>
-                Cada individuo es único y merece un enfoque de nutrición
-                adaptado a sus necesidades y objetivos específicos. Mi enfoque
-                se basa en escucharte, comprender tus metas y desafíos, y
-                trabajar juntos para desarrollar un plan alimentario que sea
-                práctico y efectivo. Creo en empoderarte con el conocimiento
-                necesario para tomar decisiones informadas sobre tu salud y
-                nutrición.
-              </p>
-            </div> */}
+
             <div className={styles.points}>
               <h3> Más que una Dieta, un Estilo de Vida</h3>
               <p>
@@ -66,26 +56,7 @@ const Me = () => {
                 alimentos mientras trabajamos hacia tus objetivos.
               </p>
             </div>
-
-            {/* <div className="points">
-              <h3>Colaboración y Apoyo Constante</h3>
-              <p>
-                El camino hacia una mejor salud y rendimiento es un viaje en el
-                que te acompaño en cada paso. Trabajaremos en equipo para
-                superar obstáculos y celebrar tus logros. Mi compromiso es
-                brindarte apoyo constante y motivación mientras trabajamos
-                juntos hacia una vida más saludable y plena.
-              </p>
-
-              <p>
-                Estoy emocionada de conocerte y ser parte de tu camino hacia el
-                bienestar. ¡Juntos, lograremos metas increíbles a través de la
-                nutrición y el compromiso!
-              </p>
-            </div> */}
           </div>
-
-          <img src={florchicac} alt="Florencia" />
         </div>
       </div>
     </>

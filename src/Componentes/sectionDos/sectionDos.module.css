@@ -21,8 +21,8 @@
   justify-content: flex-start;
   margin: 2rem 2rem;
   background-color: #db5461;
-  height: 400px;
-  width: 30%;
+  max-width: 350px;
+  height: auto;
   font-family: "Josefin Sans", sans-serif;
   border-radius: 25px;
   font-family: "Protest Strike", sans-serif;
@@ -36,6 +36,7 @@
 .cardContainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
 }
@@ -43,7 +44,7 @@
 .descripcionCard {
   word-wrap: break-word;
   width: 80%;
-  margin-top: 1rem;
+  margin: 1rem;
   font-size: larger;
   font-family: "Josefin Sans", sans-serif;
   color: #472836;
@@ -61,4 +62,7 @@
 .titulo h3 {
   margin: 1rem 0rem;
   font-size: x-large;
+}
+
+@media screen and (max-width: 768px) {
 }

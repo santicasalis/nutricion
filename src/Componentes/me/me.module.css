@@ -41,3 +41,20 @@
 .bienvenidos p {
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .points {
+    max-width: 300px;
+    margin: 1rem 2rem;
+  }
+  .meLayout {
+    flex-direction: column;
+    align-items: center;
+  }
+  .meContainer {
+    margin-top: 0rem;
+  }
+  .meLayout img {
+    width: 90%;
+  }
+}

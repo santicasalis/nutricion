@@ -3,6 +3,7 @@ import styles from "../services/service.module.css";
 import servicios from "../../servicios";
 
 import { Link } from "react-router-dom";
+import { Consults } from "../consult/Consults";
 
 const ServiceList = () => {
   return (
@@ -27,6 +28,7 @@ const ServiceList = () => {
           ))}
         </div>
       </div>
+      <Consults />
     </>
   );
 };

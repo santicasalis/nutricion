@@ -5,11 +5,12 @@ function SectionUno() {
     <>
       <div className={styles.imgSectionUno}>
         <h1>
-          Planes personalizados para <br /> tu estilo de vida
+          Planes personalizados para <br className={styles.brSectionUno} /> tu
+          estilo de vida
         </h1>
         <p>
           Descubre cómo la nutrición puede ayudarte
-          <br /> a alcanzar tu máximo potencial
+          <br className={styles.brSectionUno} /> a alcanzar tu máximo potencial
         </p>
       </div>
     </>

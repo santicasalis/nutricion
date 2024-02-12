@@ -18,10 +18,14 @@ const ServicesDetail = () => {
         <div className={styles.serviceDetailContainer} key={serviceId}>
           <h3>{foundService.title}</h3>
           <div className={styles.medio}>
-            <div>{foundService.description}</div>
+            <div className={styles.description}>
+              <div>{foundService.description}</div>
+              <button>saca turno</button>
+            </div>
 
             <img
-              src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG51dHJpY2lvbiUyMGRlcG9ydGl2YXxlbnwwfDF8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60"
+              src={foundService.imageDetail}
+              className={styles.image}
               alt=""
             />
           </div>

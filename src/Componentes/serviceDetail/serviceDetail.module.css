@@ -2,9 +2,46 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f2e9dc;
+  height: 90vh;
+}
+
+.serviceDetailContainer h3 {
+  margin: 3rem;
+  color: #472836;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: x-large;
 }
 
 .medio {
   display: flex;
   align-items: center;
+  margin: 0rem 4rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-right: 3rem;
+  font-size: larger;
+  font-family: "Josefin Sans", sans-serif;
+  color: #472836;
+}
+.description div {
+  width: 90%;
+}
+.description button {
+  margin: 2rem;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid #db5461;
+  background-color: #db5461;
+  color: white;
+}
+
+.image {
+  margin-bottom: 2rem;
+  border-radius: 25px;
 }

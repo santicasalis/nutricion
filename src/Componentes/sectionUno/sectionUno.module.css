@@ -31,3 +31,13 @@
   font-weight: 500;
   text-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.909);
 }
+
+@media screen and (max-width: 768px) {
+  .brSectionUno {
+    display: none;
+  }
+
+  .imgSectionUno p {
+    width: 70%;
+  }
+}
