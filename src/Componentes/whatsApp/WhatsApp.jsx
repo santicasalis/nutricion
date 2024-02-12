@@ -3,7 +3,7 @@ import styles from "../whatsApp/whatsApp.module.css";
 const WhatsApp = () => {
   return (
     <a
-      href="https://wa.me/5491139243705"
+      href="https://wa.me/5491138989305"
       target="_blank"
       rel="noopener noreferrer"
     >
