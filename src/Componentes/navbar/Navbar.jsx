@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import styles from "./navbar.module.css";
-import logo from "../../assets/logoUNO.png";
 
 const NavItem = ({ label, path }) => (
   <li className={styles.navbar__listItem}>
