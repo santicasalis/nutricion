@@ -8,6 +8,7 @@ import ServicesDetail from "./Componentes/serviceDetail/ServiceDetail";
 import Me from "./Componentes/me/Me";
 import Navbar from "./Componentes/navbar/Navbar";
 import Footer from "./Componentes/footer/Footer";
+import WhatsApp from "./Componentes/whatsApp/WhatsApp";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Route path="services/:serviceId" element={<ServicesDetail />} />
         <Route path="me" element={<Me />} />
       </Routes>
+      <WhatsApp />
       <Footer />
     </>
   );

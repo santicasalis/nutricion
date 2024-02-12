@@ -44,7 +44,7 @@ const Me = () => {
                 nutricionales personalizadas.
               </p>
             </div>
-            <div className={styles.points}>
+            {/* <div className={styles.points}>
               <h3> Enfoque Personalizado</h3>
               <p>
                 Cada individuo es único y merece un enfoque de nutrición
@@ -55,7 +55,7 @@ const Me = () => {
                 necesario para tomar decisiones informadas sobre tu salud y
                 nutrición.
               </p>
-            </div>
+            </div> */}
             <div className={styles.points}>
               <h3> Más que una Dieta, un Estilo de Vida</h3>
               <p>

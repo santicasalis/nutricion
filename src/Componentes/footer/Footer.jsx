@@ -28,7 +28,7 @@ const Footer = () => {
               src="https://cdn-icons-png.flaticon.com/128/126/126509.png"
               alt="Teléfono"
             />
-            <p>1153522423</p>
+            <p>1156262545</p>
           </li>
           <li className={styles.iconsFooter}>
             <img

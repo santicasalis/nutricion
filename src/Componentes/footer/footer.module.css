@@ -19,6 +19,8 @@ footer {
   flex-direction: row;
   padding: 1rem;
   align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
 }
 .iconsFooter img {
   width: 30px;

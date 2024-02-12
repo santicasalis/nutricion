@@ -7,7 +7,8 @@
   margin: 2rem 2rem;
   border-radius: 15px;
   transition: transform 0.3s;
-  box-shadow: 0 2px 6px #db5461;
+  box-shadow: 0 4px 6px #db5461;
+  background-color: #db5461;
 }
 
 /* .cardHover:hover {
@@ -46,10 +47,16 @@
 .underline {
   text-decoration: none;
   margin-bottom: 1rem;
-  color: var(--dark-moss-green);
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
 }
 
 .servicec {
   width: 30%;
   margin: 2rem 2rem;
+  transition: transform 0.3s ease-in-out;
+}
+.servicec:hover {
+  transform: scale(1.1);
 }

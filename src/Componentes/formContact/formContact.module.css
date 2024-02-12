@@ -2,17 +2,23 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 90vh;
+
+  background-color: #f2e9dc;
 }
 
 .margarita {
   width: 30%;
-  height: 70%;
+  height: 500px;
+  border-radius: 25px;
 }
 .contactame {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.contactame h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #472836;
 }
 
 .formularioContainer {
@@ -31,4 +37,11 @@ form {
   padding: 1rem 1rem;
   width: 500px;
   margin-top: 1rem;
+  border: 2px solid #db5461;
+}
+form button {
+  background-color: #db5461;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: larger;
 }
