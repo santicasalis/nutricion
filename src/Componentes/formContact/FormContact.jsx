@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 function FormContact() {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const initialValues = {
     nombre: "",
@@ -24,33 +24,36 @@ function FormContact() {
     mensaje: Yup.string().required("El mensaje es obligatorio"),
   });
 
-  const handleSubmit = (values) => {
-    setIsSubmitted(true);
-  };
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm("service_z2rj20r", "template_bu1w8c7", form.current, {
-        publicKey: "PyBdXNdSyECQEKVgA",
-      })
-      .then(
-        () => {
-          Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "El mensaje se envió correctamente",
-            showConfirmButton: false,
-            timer: 1500,
-          });
-        },
+  const handleSubmit = async (values, { setSubmitting, resetForm }) => {
+    try {
+      setIsSubmitting(true);
 
-        (error) => {
-          console.log("FAILED...", error.text);
+      // Your form submission logic here
+      await emailjs.sendForm(
+        "service_z2rj20r",
+        "template_bu1w8c7",
+        form.current,
+        {
+          publicKey: "PyBdXNdSyECQEKVgA",
         }
       );
-  };
 
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "El mensaje se envió correctamente",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      resetForm();
+    } catch (error) {
+      console.error("Error sending email:", error);
+    } finally {
+      setIsSubmitting(false);
+      setSubmitting(false);
+    }
+  };
+  const form = useRef();
   return (
     <div className={styles.formContainer}>
       <img className={styles.margarita} src={margarita} alt="" />
@@ -62,17 +65,13 @@ function FormContact() {
             Dejame tu <br /> consulta
           </h1>
         </div>
-        {isSubmitted && <p>Formulario enviado correctamente</p>}
+        {isSubmitting && <p>Formulario enviado correctamente</p>}
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
         >
-          <Form
-            ref={form}
-            onSubmit={sendEmail}
-            className={styles.formResponsive}
-          >
+          <Form ref={form} className={styles.formResponsive}>
             <div className={styles.labelInput}>
               <label htmlFor="nombre"></label>
               <Field
@@ -127,7 +126,11 @@ function FormContact() {
                 className={styles.error}
               />
             </div>
-            <button type="submit" className={styles.buttonSubmit}>
+            <button
+              type="submit"
+              className={styles.buttonSubmit}
+              disabled={isSubmitting}
+            >
               Enviar
             </button>
           </Form>
