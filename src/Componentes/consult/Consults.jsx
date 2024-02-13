@@ -28,7 +28,7 @@ export const Consults = () => {
             preciso y adaptado a tu progreso
           </p>
           <a
-            href="https://wa.link/ndjqym"
+            href="https://calendar.app.google/LypRx5fr1drra6Gy9"
             target="_blank"
             rel="noopener noreferrer"
           >
