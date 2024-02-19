@@ -1,9 +1,9 @@
 const servicios = [
   {
     id: 2,
-    title: "Evaluación de Tu Estado Nutricional",
+    title: "Educación Nutricional",
     description:
-      "En esta fase, realizaré un análisis exhaustivo de tu estado nutricional. Utilizando tecnologías avanzadas y métodos precisos, mediré tu composición corporal, exploraré tus hábitos alimentarios y evaluaré tus niveles de actividad física. Esta evaluación detallada me brindará información clave para comprender tus necesidades únicas y personalizar un plan nutricional que te ayude a alcanzar tus objetivos de salud y bienestar. Obtén una visión completa de tu salud y toma el primer paso hacia una vida más saludable y equilibrada.",
+      "Mi objetivo es brindarte herramientas y el conocimiento necesario, a través de distintas estrategias educativas, que puedan ayudarte a adoptar ciertas elecciones y conductas nutricionales que apunte a mejorar tus hábitos alimentarios, estado nutricional y de salud, a largo plazo.¡Juntos, trabajaremos en la construcción de hábitos alimentarios saludables que se adapten a tu estilo de vida único!",
     image:
       "https://media.istockphoto.com/id/1452595743/es/foto/doctora-nutricionista-en-su-consultorio-durante-una-consulta-m%C3%A9dica-midiendo-la-espalda-de-su.jpg?s=612x612&w=0&k=20&c=jQNdoosF4_6C3D6O2-i4MTF4xyfv53yeQr1u_5Surzc=",
 
@@ -11,22 +11,22 @@ const servicios = [
       "https://media.istockphoto.com/id/1453227795/es/foto/escritorio-nutricionista-con-instrumentos-de-medici%C3%B3n-antropom%C3%A9tricos-planes-nutricionales.jpg?s=612x612&w=0&k=20&c=apY6pyP8QMxKB8Jj8GPLJiZW5atnUKRa5CObWh-bEGY=",
   },
 
-  {
-    id: 3,
-    title: "Planificación Alimentaria",
-    description:
-      " En esta etapa, no solo recibirás un plan alimentario personalizado, sino que también te proporcionaré una profunda comprensión de los fundamentos de la nutrición. Aprenderás acerca de los grupos de alimentos, nutrientes esenciales y estrategias para tomar decisiones alimentarias informadas. Mi objetivo es brindarte las herramientas y el conocimiento necesarios para que puedas tomar el control de tu alimentación, mejorar tu salud y lograr un bienestar duradero. Juntos, trabajaremos en la construcción de hábitos alimentarios saludables que se adapten a tu estilo de vida único.",
-    image:
-      "https://media.istockphoto.com/id/1129664861/es/foto/escribir-un-plan-de-dieta-en-la-mesa-llena-de-comida-saludable.jpg?s=612x612&w=0&k=20&c=d4hma88x0J_swnfPvVR5GVKayjA7SAvH80xrvpECTXo=",
-    imageDetail:
-      "https://media.istockphoto.com/id/1479491964/es/foto/la-tecnolog%C3%ADa-de-la-salud-en-la-vida-cotidiana.jpg?s=612x612&w=0&k=20&c=ol1TwhdplF-FgbeLGeTcV_sPKZ6JCDrm1RcHkP7U2cU=",
-  },
+  // {
+  //   id: 3,
+  //   title: "Planificación Alimentaria",
+  //   description:
+  //     " En esta etapa, no solo recibirás un plan alimentario personalizado, sino que también te proporcionaré una profunda comprensión de los fundamentos de la nutrición. Aprenderás acerca de los grupos de alimentos, nutrientes esenciales y estrategias para tomar decisiones alimentarias informadas. Mi objetivo es brindarte las herramientas y el conocimiento necesarios para que puedas tomar el control de tu alimentación, mejorar tu salud y lograr un bienestar duradero. Juntos, trabajaremos en la construcción de hábitos alimentarios saludables que se adapten a tu estilo de vida único.",
+  //   image:
+  //     "https://media.istockphoto.com/id/1129664861/es/foto/escribir-un-plan-de-dieta-en-la-mesa-llena-de-comida-saludable.jpg?s=612x612&w=0&k=20&c=d4hma88x0J_swnfPvVR5GVKayjA7SAvH80xrvpECTXo=",
+  //   imageDetail:
+  //     "https://media.istockphoto.com/id/1479491964/es/foto/la-tecnolog%C3%ADa-de-la-salud-en-la-vida-cotidiana.jpg?s=612x612&w=0&k=20&c=ol1TwhdplF-FgbeLGeTcV_sPKZ6JCDrm1RcHkP7U2cU=",
+  // },
 
   {
     id: 4,
-    title: "Planificación  para Deportistas",
+    title: "Nutrición Deportiva",
     description:
-      "Para aquellos apasionados por el deporte y la actividad física, este servicio se centra en la creación de un plan alimentario personalizado. Colaboraré contigo para optimizar tu rendimiento, acelerar la recuperación y fortalecer tu resistencia. La alimentación será ajustada a tus metas deportivas, asegurando que cada nutriente contribuya a tu máximo desempeño.",
+      "La nutrición deportiva busca mejorar el rendimiento con un plan nutricional personalizado y completo adaptado al tipo de deporte y objetivo de cada uno.Te ayudo a optimizar tu rendimiento deportivo y recuperación para que puedas rendir al máximo.",
 
     image:
       "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8REVQT1JURVN8ZW58MHx8MHx8fDI%3D",
@@ -36,19 +36,19 @@ const servicios = [
 
   {
     id: 7,
-    title: "Nutrición Infantil y Familiar",
+    title: "Evaluación de la Composición Corporal",
     description:
-      "Dedicado a ti y a tu familia, este servicio se enfoca en establecer hábitos alimentarios saludables desde una edad temprana. Mi objetivo es brindarte consejos prácticos y recursos para crear un entorno nutricional positivo en el hogar. A través de estrategias personalizadas, te acompañaré en el camino hacia una nutrición equilibrada y beneficiosa para toda la familia.",
+      "A través de la antropometría, evaluamos y trabajamos sobre tu composición corporal, realizando mediciones antropométricas que nos van a permitir diferencia tu peso de balanza en las distintas masas corporales. Con el objetivo de realizar un seguimiento longitudinal más exhaustivo orientado a mejorar tu calidad de vida y rendimiento deportivo.",
     image:
-      "https://media.istockphoto.com/id/75939355/es/foto/adulto-feeding-baby.webp?b=1&s=170667a&w=0&k=20&c=GnpLmUqQCQLr9LxQD1BtZ0LUYmbAkrMsXA6svYLfWQo=",
+      "https://media.istockphoto.com/id/1452595743/es/foto/doctora-nutricionista-en-su-consultorio-durante-una-consulta-m%C3%A9dica-midiendo-la-espalda-de-su.jpg?s=612x612&w=0&k=20&c=jQNdoosF4_6C3D6O2-i4MTF4xyfv53yeQr1u_5Surzc=",
     imageDetail:
       "https://media.istockphoto.com/id/1216418636/es/foto/feliz-familia-cocinando-juntos-en-la-cocina-del-hogar.jpg?s=612x612&w=0&k=20&c=6in56SFOIlH6r2xq5qoylKhgj3BOEIu5nIAPhkEAFpQ=",
   },
   {
     id: 8,
-    title: "Asesoramiento en Dietas Especiales",
+    title: "Consulta Online Personalizada",
     description:
-      "Si sigues una dieta vegana, vegetariana u otras necesidades dietéticas específicas, estoy aquí para diseñar un plan alimentario equilibrado que no solo satisfaga tus requerimientos nutricionales, sino que también se adapte a tu estilo de vida. Mi enfoque personalizado garantiza que recibas el mejor asesoramiento para alcanzar tus metas de salud y bienestar.",
+      "Asesoramiento nutricional online, te acompaño a alcanzar tus objetivos, no solo con un plan de alimentación personalizado, si no también brindándote herramientas y el conocimiento necesario para adoptar hábitos saludables que busquen mejorar tu salud y bienestar.  Aprenderás acerca de los grupos de alimentos, nutrientes esenciales, hidratación, distribución del plato, armado de menús semanales saludables, etc.¡Juntos, trabajaremos en la construcción de hábitos saludables que se adapten a tu estilo de vida único!",
     image:
       "https://media.istockphoto.com/id/1017706758/es/foto/plato-de-ensalada-mix-tiro-desde-arriba-en-la-mesa-de-picnic-verde-luz.webp?b=1&s=170667a&w=0&k=20&c=TLo9wJQaXyc0eV4MMlA3QpyS0jjniC8gZSC4EYgo1S4=",
     imageDetail:
