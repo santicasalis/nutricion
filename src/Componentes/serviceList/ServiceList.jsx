@@ -8,6 +8,7 @@ import { Consults } from "../consult/Consults";
 const ServiceList = () => {
   return (
     <>
+      <Consults />
       <div className={styles.serviceListContainer}>
         <h1>Nuestros servicios</h1>
         <div className={styles.serviceList}>
@@ -28,7 +29,6 @@ const ServiceList = () => {
           ))}
         </div>
       </div>
-      <Consults />
     </>
   );
 };

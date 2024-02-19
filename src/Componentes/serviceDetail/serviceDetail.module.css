@@ -32,13 +32,21 @@
 .description div {
   width: 90%;
 }
-.description button {
-  margin: 2rem;
-  padding: 15px;
+.description a {
+  margin-top: 1rem;
+  padding: 20px;
   border-radius: 25px;
-  border: 1px solid #db5461;
-  background-color: #db5461;
+  border: 1px solid #57652a;
+  background-color: #57652a;
   color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: large;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.description a:hover {
+  transform: scale(1.2);
 }
 
 .image {

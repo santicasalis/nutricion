@@ -21,39 +21,39 @@ const Me = () => {
           <img src={florchicac} alt="Florencia" />
           <div className={styles.meContainer}>
             <div className={styles.points}>
-              <h3>Mi Historia y Formación</h3>
+              <h3>SOBRE MÍ</h3>
               <p>
-                Me gradué en la Universidad de Buenos Aires, donde obtuve mi
-                título en Nutrición. Durante mi educación, desarrollé una
-                comprensión profunda de cómo la nutrición influye en todos los
-                aspectos de nuestra vida, desde la energía que sentimos hasta
-                nuestra salud general. Mi búsqueda de conocimiento no se detiene
-                ahí, ya que estoy comprometida con la educación continua y el
-                aprendizaje de las últimas investigaciones y tendencias en el
-                campo de la nutrición.
+                Soy Florencia Casalis, Licenciada en Nutrición graduada en la
+                Universidad de Buenos Aires con una sólida formación en
+                nutrición y especialización en Nutrición deportiva. Mi enfoque
+                busca ayudar a las personas a mejorar sus hábitos y alcanzar sus
+                objetivos, acompañándolos a través de planes de alimentación
+                personalizados que se adapten a cada uno.
               </p>
             </div>
             <div className={styles.points}>
-              <h3>Especialización en Nutrición Deportiva</h3>
+              <h3>MI FORMACIÓN</h3>
               <p>
-                Mi viaje me llevó a descubrir mi pasión por la nutrición
-                deportiva. He invertido tiempo y esfuerzo en convertirme en una
-                experta en el ámbito, comprendiendo cómo la alimentación puede
-                potenciar el rendimiento atlético. Desde atletas de alto
-                rendimiento hasta aficionados del fitness, mi objetivo es
-                ayudarte a alcanzar tu máximo potencial a través de estrategias
-                nutricionales personalizadas.
+                Me gradué en la Universidad de Buenos Aires, donde obtuve mi
+                título como Licenciada en Nutrición. Durante mi educación,
+                desarrolle una comprensión profunda de como la nutrición influye
+                en todos los aspectos de nuestra vida, y como una alimentación
+                saludable es fundamental para mantener o mejorar nuestra salud
+                general.
               </p>
             </div>
 
             <div className={styles.points}>
-              <h3> Más que una Dieta, un Estilo de Vida</h3>
+              <h3> ESPECIALIZACIÓN EN NUTRICIÓN DEPORTIVA</h3>
               <p>
-                Mi objetivo no es simplemente proporcionarte una dieta temporal,
-                sino equiparte con las herramientas para adoptar un estilo de
-                vida saludable y sostenible. Juntos, exploraremos tus
-                preferencias alimentarias y encontrarás formas de disfrutar los
-                alimentos mientras trabajamos hacia tus objetivos.
+                Empecé la carrera sabiendo que lo que me apasionaba era la
+                Nutrición deportiva. Próximo a recibirme, realicé cursos
+                específicos sobre el tema donde pude profundizar y comprender la
+                importancia de la alimentación en el rendimiento deportivo,
+                desde deportistas amateur hasta deportistas de alto rendimiento.
+                Mi objetivo es ayudarte a alcanzar tu máximo potencial a través
+                de planes nutricionales personalizados adaptados a tu tipo de
+                deporte, objetivos, entrenamiento, gustos, horarios, etc.
               </p>
             </div>
           </div>

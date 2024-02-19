@@ -26,7 +26,13 @@ const ServicesDetail = () => {
             />
             <div className={styles.description}>
               <div>{foundService.description}</div>
-              <button>Sacá tu turno</button>
+              <a
+                href="https://wa.link/ndjqym"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Reservá tu turno
+              </a>
             </div>
           </div>
         </div>

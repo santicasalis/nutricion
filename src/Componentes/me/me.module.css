@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: Column;
   margin-top: 3rem;
+  color: #472836;
 }
 
 .meLayout {
@@ -15,6 +16,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #f2e9dc;
+  color: #472836;
 }
 
 .points {

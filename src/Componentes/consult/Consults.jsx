@@ -15,17 +15,17 @@ export const Consults = () => {
             srcset=""
           />
           <h2 className={styles.consultas}>Consultas Online</h2>
+          <h4 className={styles.consultas}>
+            Que la distancia no sea un impedimento
+          </h4>
           <p>
             {" "}
-            Realizamos consultas a través de videollamada (Zoom o Meet), donde
-            llevamos a cabo la evaluación nutricional. <br /> <br />
+            Realizamos consultas a través de videollamada (Meet), donde llevamos
+            a cabo la evaluación nutricional. <br /> <br />
             Durante la primera entrevista, te hacemos preguntas detalladas sobre
             hábitos, gustos, objetivos, salud, rutina diaria, entre otros. Con
             esta información, creamos un plan de alimentación personalizado
             según tus necesidades y metas. <br /> <br />
-            Para la evaluación de la composición corporal online, utilizamos
-            fotos y medidas que nos envías. Así, garantizamos un seguimiento
-            preciso y adaptado a tu progreso
           </p>
           <a
             href="https://calendar.app.google/LypRx5fr1drra6Gy9"
@@ -48,13 +48,11 @@ export const Consults = () => {
             incluir la medición de la composición corporal mediante la
             Antropometría.
             <br />
+            <br />
             <br /> Esta herramienta nos permite analizar en detalle aspectos
             como la masa grasa, muscular y ósea, proporcionando una visión más
             completa y personalizada de tu estado nutricional. <br />
             <br />
-            Además, para tu comodidad, estoy disponible para consultas en las
-            localidades de Moreno y Vicente López. ¡Espero poder acompañarte en
-            tu viaje hacia una alimentación más saludable y personalizada!
             <br className={styles.brSectionUno} />
             <br className={styles.brSectionUno} />
           </p>

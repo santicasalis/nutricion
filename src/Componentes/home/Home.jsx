@@ -7,9 +7,8 @@ function Home() {
   return (
     <>
       <SectionUno />
-      <SectionDos />
-      <Sport />
       <ServiceList />
+      <Sport />
     </>
   );
 }
