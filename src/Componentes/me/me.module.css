@@ -53,6 +53,11 @@
     flex-direction: column;
     align-items: center;
   }
+  .meLayout img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
   .meContainer {
     margin-top: 0rem;
   }

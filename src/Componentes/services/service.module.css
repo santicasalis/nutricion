@@ -36,6 +36,8 @@
 .servicesCard h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+  color: #57652a;
+  font-weight: bold;
 }
 .servicesCardImg {
   width: 100%;

@@ -18,7 +18,11 @@ const Me = () => {
           </p>
         </div>
         <div className={styles.meLayout}>
-          <img src={florchicac} alt="Florencia" />
+          <img
+            src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1708902588/a7153c14-0905-47a5-b52c-9190ec265fc2_m9dspd.png"
+            style={{ maxWidth: "400px", maxHeight: "400px" }}
+            alt="Florencia"
+          />
           <div className={styles.meContainer}>
             <div className={styles.points}>
               <h3>SOBRE MÍ</h3>

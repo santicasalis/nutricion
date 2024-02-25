@@ -5,10 +5,10 @@ const servicios = [
     description:
       "Mi objetivo es brindarte herramientas y el conocimiento necesario, a través de distintas estrategias educativas, que puedan ayudarte a adoptar ciertas elecciones y conductas nutricionales que apunte a mejorar tus hábitos alimentarios, estado nutricional y de salud, a largo plazo.¡Juntos, trabajaremos en la construcción de hábitos alimentarios saludables que se adapten a tu estilo de vida único!",
     image:
-      "https://media.istockphoto.com/id/1452595743/es/foto/doctora-nutricionista-en-su-consultorio-durante-una-consulta-m%C3%A9dica-midiendo-la-espalda-de-su.jpg?s=612x612&w=0&k=20&c=jQNdoosF4_6C3D6O2-i4MTF4xyfv53yeQr1u_5Surzc=",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1708902048/istockphoto-1184422521-612x612_vsvpcw.jpg",
 
     imageDetail:
-      "https://media.istockphoto.com/id/1453227795/es/foto/escritorio-nutricionista-con-instrumentos-de-medici%C3%B3n-antropom%C3%A9tricos-planes-nutricionales.jpg?s=612x612&w=0&k=20&c=apY6pyP8QMxKB8Jj8GPLJiZW5atnUKRa5CObWh-bEGY=",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1708902213/istockphoto-1171734838-612x612_jy6egh.jpg",
   },
 
   // {
@@ -42,7 +42,7 @@ const servicios = [
     image:
       "https://media.istockphoto.com/id/1452595743/es/foto/doctora-nutricionista-en-su-consultorio-durante-una-consulta-m%C3%A9dica-midiendo-la-espalda-de-su.jpg?s=612x612&w=0&k=20&c=jQNdoosF4_6C3D6O2-i4MTF4xyfv53yeQr1u_5Surzc=",
     imageDetail:
-      "https://media.istockphoto.com/id/1216418636/es/foto/feliz-familia-cocinando-juntos-en-la-cocina-del-hogar.jpg?s=612x612&w=0&k=20&c=6in56SFOIlH6r2xq5qoylKhgj3BOEIu5nIAPhkEAFpQ=",
+      "https://media.istockphoto.com/id/1453227795/es/foto/escritorio-nutricionista-con-instrumentos-de-medici%C3%B3n-antropom%C3%A9tricos-planes-nutricionales.jpg?s=612x612&w=0&k=20&c=apY6pyP8QMxKB8Jj8GPLJiZW5atnUKRa5CObWh-bEGY=",
   },
   {
     id: 8,
