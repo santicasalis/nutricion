@@ -50,7 +50,7 @@ const servicios = [
     description:
       "Asesoramiento nutricional online, te acompaño a alcanzar tus objetivos, no solo con un plan de alimentación personalizado, si no también brindándote herramientas y el conocimiento necesario para adoptar hábitos saludables que busquen mejorar tu salud y bienestar.  Aprenderás acerca de los grupos de alimentos, nutrientes esenciales, hidratación, distribución del plato, armado de menús semanales saludables, etc.¡Juntos, trabajaremos en la construcción de hábitos saludables que se adapten a tu estilo de vida único!",
     image:
-      "https://media.istockphoto.com/id/1017706758/es/foto/plato-de-ensalada-mix-tiro-desde-arriba-en-la-mesa-de-picnic-verde-luz.webp?b=1&s=170667a&w=0&k=20&c=TLo9wJQaXyc0eV4MMlA3QpyS0jjniC8gZSC4EYgo1S4=",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1708903205/istockphoto-1127348018-612x612_ipp397.jpg",
     imageDetail:
       "https://media.istockphoto.com/id/1457889029/es/foto/grupo-de-alimentos-con-alto-contenido-de-fibra-diet%C3%A9tica-dispuestos-uno-al-lado-del-otro.jpg?s=612x612&w=0&k=20&c=fGmnVlAU6yDfG29kEMoNZg28DWA5I_CjprvK2L1HhT8=",
   },

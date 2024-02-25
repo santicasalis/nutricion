@@ -11,7 +11,7 @@ export const Consults = () => {
           {" "}
           <img
             src="https://media.istockphoto.com/id/939585094/es/foto/mujer-nutricionista-trabajando-en-ordenador-port%C3%A1til.jpg?s=612x612&w=0&k=20&c=mhPqHim6wtpqIRK-BGIgQLA5-3zCQ5wYVSDHJM2AQbY="
-            alt=""
+            alt="Consulta nutricional"
             srcset=""
           />
           <h2 className={styles.consultas}>Consultas Online</h2>
