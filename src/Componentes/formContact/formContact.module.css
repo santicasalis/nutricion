@@ -47,11 +47,13 @@ form {
   margin-top: 1rem;
   height: 30px;
   border: 2px solid #57652a;
+  background-color: #bdb7b8;
 }
 .textAreaField {
   height: 80px;
   border: 2px solid #57652a;
   width: 300px;
+  background-color: #bdb7b8;
   padding: 1rem 1rem;
 }
 
