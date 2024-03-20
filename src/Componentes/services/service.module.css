@@ -75,4 +75,8 @@
     color: #57652a;
     box-shadow: none;
   }
+  .servicesCard h3 {
+    max-width: 300px;
+    text-align: center;
+  }
 }

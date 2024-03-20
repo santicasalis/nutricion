@@ -36,7 +36,7 @@ const servicios = [
 
   {
     id: 7,
-    title: "Evaluación de la Composición Corporal",
+    title: `Evaluación de la Composición Corporal`,
     description:
       "A través de la antropometría, evaluamos y trabajamos sobre tu composición corporal, realizando mediciones antropométricas que nos van a permitir diferencia tu peso de balanza en las distintas masas corporales. Con el objetivo de realizar un seguimiento longitudinal más exhaustivo orientado a mejorar tu calidad de vida y rendimiento deportivo.",
     image:
