@@ -8,14 +8,14 @@
   border-radius: 15px;
   transition: transform 0.3s;
   box-shadow: 0 4px 6px #57652a;
-  background-color: #57652a;
+  /* background-color: #57652a; */
 }
 
 .serviceListContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f2e9dc;
+  background-color: #f5f9e9;
 }
 
 .serviceListContainer h1 {
@@ -70,7 +70,7 @@
   }
   .servicesCard {
     margin: 1rem 0.5rem;
-    background-color: #f2e9dc;
+    /* background-color: #f2e9dc; */
     color: #57652a;
     box-shadow: none;
   }

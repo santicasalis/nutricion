@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
 
-  background-color: #f2e9dc;
+  background-color: #f5f9e9;
 }
 
 .margarita {
@@ -47,13 +47,13 @@ form {
   margin-top: 1rem;
   height: 30px;
   border: 2px solid #57652a;
-  background-color: #bdb7b8;
+  background-color: #f5f9e9;
 }
 .textAreaField {
   height: 80px;
   border: 2px solid #57652a;
   width: 300px;
-  background-color: #bdb7b8;
+  background-color: #f5f9e9;
   padding: 1rem 1rem;
 }
 
