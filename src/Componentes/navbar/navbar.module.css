@@ -51,7 +51,7 @@
 .navbar__menuButton {
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: #315a20;
   font-size: 24px;
   cursor: pointer;
 }
@@ -79,7 +79,7 @@
     position: absolute;
     top: 60%;
     left: 0%;
-    background-color: #bdb7b8;
+    background-color: #e0f4d3;
     width: 100%;
   }
   .navbar__closed {

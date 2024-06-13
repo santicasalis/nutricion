@@ -64,4 +64,11 @@
   .meLayout img {
     width: 90%;
   }
+  .bienvenidos p {
+    font-size: 1.5rem;
+  }
+
+  .points p {
+    font-size: 1.3rem;
+  }
 }
