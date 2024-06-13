@@ -28,9 +28,9 @@ export const Consults = () => {
             según tus necesidades y metas. <br /> <br />
           </p>
           <a
-            href="https://calendar.app.google/LypRx5fr1drra6Gy9"
-            target="_blank"
-            rel="noopener noreferrer"
+           href="https://wa.link/ndjqym"
+           target="_blank"
+           rel="noopener noreferrer"
           >
             Reservá tu turno
           </a>
