@@ -1,14 +1,16 @@
 .footerr {
   width: 100%;
 
-  background-color: #bdb7b8;
+  background-color: #e0f4d3;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Josefin Sans", sans-serif;
-  color: white;
+  color: #315a20;
   font-size: x-large;
   height: 10vh;
+  border-top: 1px solid #315a20; 
+
 }
 
 .iconsContainer {
@@ -24,7 +26,7 @@
   padding: 1rem;
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
-  color: white;
+  color: #315a20;
 }
 .iconsFooter img {
   width: 30px;

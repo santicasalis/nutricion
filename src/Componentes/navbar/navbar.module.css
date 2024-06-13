@@ -1,12 +1,13 @@
 .navbar {
-  background-color: #bdb7b8;
-  color: #fff;
+  background-color: #e0f4d3;
+  color: #315a20;
   padding: 15px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  border-bottom: 1px solid #315a20; 
 }
 
 .navbar__nav {
@@ -37,14 +38,14 @@
 .navbar__link {
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
-  color: white;
+  color: #315a20;
   margin: 0rem 2rem;
   transition: color 0.3s, background-color 0.3s;
   font-weight: bolder;
 }
 
 .navbar__link:hover {
-  color: #57652a;
+  color: #458c24;
 }
 
 .navbar__menuButton {

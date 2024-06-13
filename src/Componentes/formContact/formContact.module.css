@@ -19,7 +19,7 @@
 }
 .contactame h1 {
   font-family: "Josefin Sans", sans-serif;
-  color: #472836;
+  color: #29491e;
 }
 
 .formularioContainer {
@@ -58,11 +58,11 @@ form {
 }
 
 .buttonSubmit {
-  background-color: #57652a;
+  background-color: #315a20;
   color: white;
   font-family: "Josefin Sans", sans-serif;
   font-size: larger;
-  border: 2px solid #57652a;
+  border: 2px solid #9edc7a;
   border-radius: 15px;
   transition: border-color 0.3s ease-in-out;
   padding: 10px;

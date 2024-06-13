@@ -15,13 +15,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f9e9;
+  background-color: #f2faeb;
 }
 
 .serviceListContainer h1 {
   margin-top: 2rem;
   font-family: "Josefin Sans", sans-serif;
-  color: #472836;
+  color: #12280b;
   text-align: center;
 }
 
@@ -36,7 +36,7 @@
 .servicesCard h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  color: #472836;
+  color: #315a20;
 }
 .servicesCardImg {
   width: 100%;

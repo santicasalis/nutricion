@@ -15,13 +15,13 @@ export const Consults = () => {
             srcset=""
           />
           <h2 className={styles.consultas}>Consultas Online</h2>
-          <h4 className={styles.consultas}>
+          {/* <h4 className={styles.consultas}>
             Que la distancia no sea un impedimento
-          </h4>
+          </h4> */}
           <p>
             {" "}
             Realizamos consultas a través de videollamada (Meet), donde llevamos
-            a cabo la evaluación nutricional. <br /> <br />
+            a cabo la evaluación nutricional. <br /> <br /><br />
             Durante la primera entrevista, te hacemos preguntas detalladas sobre
             hábitos, gustos, objetivos, salud, rutina diaria, entre otros. Con
             esta información, creamos un plan de alimentación personalizado
@@ -52,7 +52,7 @@ export const Consults = () => {
             <br /> Esta herramienta nos permite analizar en detalle aspectos
             como la masa grasa, muscular y ósea, proporcionando una visión más
             completa y personalizada de tu estado nutricional. <br />
-            <br />
+            
             <br className={styles.brSectionUno} />
             <br className={styles.brSectionUno} />
           </p>
